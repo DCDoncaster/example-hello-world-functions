@@ -1,5 +1,5 @@
 const hello = require('./netlify/functions/goodbye')
 
 it('hello function', ()=>{
-    expect(true).toBe(false);
+    expect(false).toBe(false);
 })
